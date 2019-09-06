@@ -30,8 +30,8 @@ public class Driver {
                 WebDriverManager.firefoxdriver().setup();
                 driver = new FirefoxDriver();
             }else if("Edge".equals(browser)){
-                WebDriverManager.iedriver().setup();
-                driver = new InternetExplorerDriver();
+                WebDriverManager.edgedriver().setup();
+                driver = new EdgeDriver();
             }else {
                 WebDriverManager.chromedriver().setup();
                 driver = new ChromeDriver();
