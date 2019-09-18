@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
 
 
 
-        plugin = "html:target/reports",
+        plugin = {"html:target/reports", "json:target/report.json"},
         features = "C:\\Users\\malshuaibi\\IdeaProjects\\RSNA\\src\\test\\resources\\features",
         glue = "steps",
         tags = "@RSNA",

@@ -16,7 +16,8 @@ public class RsnaNews {
 
     @Given("User on RSNA HomePage")
     public void user_on_RSNA_HomePage() {
-        driver.get("https://www.rsna.org");
+
+     driver.get("https://www.rsna.org");
     }
 
     @When("User Click on News Button")
@@ -35,3 +36,6 @@ public class RsnaNews {
 
 
 }
+
+
+
