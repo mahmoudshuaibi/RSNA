@@ -31,8 +31,11 @@ public class RsnaNews {
         String actualResults = "RSNA News";
         Assert.assertTrue(string.equalsIgnoreCase(actualResults));
 
+        driver.quit();
 
     }
+
+
 
 
 }
