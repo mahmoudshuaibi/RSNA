@@ -28,7 +28,7 @@ public class RsnaNews {
 
     @Then("User sees {string} In title")
     public void user_sees_In_title(String string) {
-        String actualResults = "RSNA Newss";
+        String actualResults = "RSNA News";
         Assert.assertTrue(string.equalsIgnoreCase(actualResults));
 
         driver.quit();
