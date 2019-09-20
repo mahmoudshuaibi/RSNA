@@ -22,7 +22,7 @@ formatter.match({
   "location": "RsnaNews.user_on_RSNA_HomePage()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "User NewsPage Functionality",
@@ -45,7 +45,7 @@ formatter.match({
   "location": "RsnaNews.user_Click_on_News_Button()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User sees \"RSNA News\" In title",
@@ -55,6 +55,6 @@ formatter.match({
   "location": "RsnaNews.user_sees_In_title(String)"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 });
